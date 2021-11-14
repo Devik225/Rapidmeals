@@ -1,0 +1,43 @@
+/* Restro_card */
+.restro_card {
+  width: 280px;
+  height: 250px;
+  margin-bottom: 40px;
+  background-color: white;
+  border: 1px solid #c4c4c4;
+  box-shadow: 0px 2px 8px rgba(36, 36, 36, 0.18);
+  position: relative;
+  border-radius: 2px;
+}
+
+.restro_img {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  right: 8px;
+  bottom: 80px;
+  background-image: url("../../images/mock.jpg");
+  background-position-x: center;
+  background-position-y: center;
+}
+
+.restro_info {
+  position: absolute;
+  top: 185px;
+  right: 12px;
+  left: 12px;
+  bottom: 8px;
+}
+
+.restro_title {
+  font-size: 20px;
+  color: #0a0907;
+  font-weight: 600;
+}
+
+.restro_minorder {
+  margin-top: 5px;
+  font-size: 12px;
+  color: #838383;
+  font-weight: 500;
+}

@@ -1,0 +1,154 @@
+.container {
+}
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.signup_card {
+  width: 100%;
+  height: 530px;
+  margin-top: 100px;
+  background-color: #f2f4f3;
+  border: 1px solid #bebebe;
+  display: flex;
+}
+
+.left {
+  width: 63%;
+  height: 95%;
+  padding: 12px;
+}
+
+.left_img {
+  width: 100%;
+  height: 100%;
+  background-image: url("../../images/signup_img.png");
+  background-position-x: center;
+  background-size: cover;
+}
+
+.right_part {
+  position: relative;
+  width: 37%;
+  height: 100%;
+  /* background-color: brown; */
+}
+
+.user_type {
+  width: 100%;
+  display: flex;
+}
+
+.user {
+  position: relative;
+  width: 50%;
+  color: #0a0907;
+  font-weight: 550;
+  font-size: 16px;
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+
+.foodie {
+  width: fit-content;
+  border-bottom: 3px solid #49111c;
+  padding-bottom: 4px;
+}
+
+.manager {
+  float: right;
+  width: fit-content;
+  padding-bottom: 5px;
+}
+
+.user:nth-child(2) {
+  align-items: flex-end;
+}
+
+.signup_form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  left: 40px;
+  right: 50px;
+  top: 15px;
+  bottom: 20px;
+  /* background-color: aqua; */
+}
+
+.signup_auth {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+
+.google_auth {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.google_btn {
+  display: flex;
+  margin: auto;
+  align-items: center;
+}
+
+.google_logo {
+  height: 26px;
+  width: 26px;
+  margin-right: 12px;
+  background-image: url("../component_imgs/google.png");
+}
+
+.signup_auth > input {
+  margin-top: 25px;
+  color: #4e4e4e;
+  padding: 0px 20px;
+}
+
+.signup_auth > button {
+  margin-top: 30px;
+  background-color: #49111c;
+  border-color: #2c070f;
+  color: #ffffff;
+}
+
+input:focus {
+  outline: none;
+}
+
+.input_size,
+.button_size {
+  font-size: 16px;
+  background-color: #f2f4f3;
+  height: 45px;
+  border: 1.7px solid #0a090756;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.button_size {
+  height: 50px;
+}
+
+.or {
+  margin: 10px 0;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.signup_login {
+  width: 100%;
+  font-weight: 600;
+}
+
+.login {
+  color: #49111c;
+}
